@@ -4,6 +4,7 @@
         <tr>
             <th>Name</th>
             <th>Hobbies</th>
+            <th>Action</th>
         </tr>
         <% persons.forEach(function(item) { %>
 
@@ -14,6 +15,10 @@
                 <td>
                     <%= item.hobbies %>
                 </td>
+                <td>
+                <a href="persons/edit"><label class="label label-primary">Edit</label></a> 
+                <a href=""><label class="label label-danger btnDelete">Delete</label></a>
+                </td>
             </tr>
 
             <%  }); %>
@@ -21,4 +26,13 @@
     </table>
     <!-- row -->
     <button id="btnAddPerson" class="btn btn-success">Add Person</button>
+    
 </div>
+<script>
+$(document).ready(function(){
+	$('#btnDelete').click(function(){
+	alert("You are about to delete a record");
+});
+});
+</script> 
+

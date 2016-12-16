@@ -15,6 +15,7 @@ app.use(require('./routes/home'));
 app.use(require('./routes/about'));
 app.use(require('./routes/api'));
 app.use(require('./routes/persons'));
+app.use(require('./routes/persons_edit'));
 
 var server = app.listen(app.get('port'), function() {
   console.log('Listening on port ' + app.get('port'));

@@ -15,9 +15,5 @@
     "firstname": "Ricardo",
     "lastname": "Dalisay",
     "hobbies": ["boxing", "singing", "punching"]
-  },{
-    "firstname": "Popoy",
-    "lastname": "Basiah",
-    "hobbies": ["jogging", "movies", "sandwich","golf"]
   }]
 }
