@@ -1,0 +1,19 @@
+{
+  "persons": [{
+    "firstname": "Noel",
+    "lastname": "David",
+    "hobbies": ["singing", "movies", "coding"]
+  }, {
+    "firstname": "Ariegail",
+    "lastname": "David",
+    "hobbies": ["singing", "movies", "reading"]
+  }, {
+    "firstname": "Brienne",
+    "lastname": "David",
+    "hobbies": ["eating", "playing", "crying"]
+  },{
+    "firstname": "Ricardo",
+    "lastname": "Dalisay",
+    "hobbies": ["boxing", "singing", "punching"]
+  }]
+}

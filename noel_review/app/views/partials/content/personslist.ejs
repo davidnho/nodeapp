@@ -1,0 +1,24 @@
+<div class="container">
+    <p>Here goes the persons list...</p>
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Hobbies</th>
+        </tr>
+        <% persons.forEach(function(item) { %>
+
+            <tr>
+                <td>
+                    <%= item.firstname + ' ' + item.lastname  %>
+                </td>
+                <td>
+                    <%= item.hobbies[0] %>
+                </td>
+            </tr>
+
+            <%  }); %>
+
+    </table>
+    <!-- row -->
+
+</div>

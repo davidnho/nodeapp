@@ -1,0 +1,18 @@
+done
+- basic express web app 
+- views rendering (template engine - ejs, html)
+- set variables
+- reading data (json)
+- creating basic api 
+
+
+next
+- passing / displaying data in views
+- includes
+- partials
+- rendering css/js/img
+- forms
+- writing to files
+
+
+

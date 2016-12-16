@@ -1,0 +1,20 @@
+{
+  "name": "node_express_review",
+  "version": "1.0.0",
+  "description": "review based from lynda tutorial",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Noel David",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
