@@ -3,8 +3,8 @@ var router = express.Router();
 
 router.get('/', function(req, res) {
 
-  res.render('index', {
-    pageTitle : "Index page",
+  res.render('home', {
+    pageTitle : "Welcome to My Page",
     pageId : "index"
   });
 
