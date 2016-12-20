@@ -4,10 +4,11 @@ var dataFile = require('./data/data.json');
 
 app.set('port', process.env.PORT || 3000 );
 app.set('view engine', 'ejs');
-app.set('views', 'views');
+app.set('views', 'app/views');
 app.set('appData', dataFile);
 
 app.locals.siteTitle = "Noel review";
+
 
 app.use(express.static('app/public'));
 app.use(require('./routes/index'));
